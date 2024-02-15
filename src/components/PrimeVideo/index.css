@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.prime-video-container {
+  padding-bottom: 30px;
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+.image {
+  width: 100%;
+}
+
+.movies-container {
+  width: 92%;
+  margin: auto;
+  margin-bottom: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1115px;
+  }
+}
+
+.movies-heading {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 650;
+  line-height: 1.25;
+  margin-top: 31px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-heading {
+    font-size: 34px;
+  }
+}
